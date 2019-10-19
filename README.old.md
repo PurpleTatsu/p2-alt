@@ -21,3 +21,6 @@ Solution: Changing spelling using if statements
 
 A section clearly defining MVP and POST MVP.
 If you plan on incorporating a component library, include a link in your proposal.
+
+## Notes
+I was really inspired by the design featured https://www.mouchtaris.com/interior-design since my project is image heavy. However I realized that the original design worked because it was also very text light, and I have signficantly more. Thus, I have to rethink my design so the font doesn't become too small.

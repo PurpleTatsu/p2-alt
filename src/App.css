@@ -1,5 +1,6 @@
 
 #nav{
+height: 100px;
   background: #A0E6FB;
   display: flex;
   justify-content: space-around;
@@ -7,22 +8,23 @@
 
 
 #footer{
+  position: fixed;
   background: #A0E6FB;
   text-align: center;
   width: 100%;
 
 }
 #home{
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 #intro{
   background: pink;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 6;
+  top: 0;
+  left: 0px;
+  position: fixed;
+  width: 400px;
 }
 #intro h1{
   font-size: 4em;
@@ -31,15 +33,19 @@
 #intro p{
   font-size: 2em;;
 }
-#characters{
-  background: gray;
-  grid-column-start: 4;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 6;
-  justify-items: center;
 
+/* Below: I really liked the layout from this interior design site and used the developer tools to see how they achieved a uniform look https://www.mouchtaris.com/interior-design */
+#characters{
+  width: calc(100% - 210px);
+  position: relative;
+  left: 400px;
+  background: green;
 }
+#characters img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
 
 .activities{
   background: blue;
@@ -64,4 +70,23 @@
   width: 210px;
   height: 70px;
   
+}
+
+#flashcards{
+ display: flex;
+ flex-wrap: wrap;
+  width: calc(100% - 210px);
+  position: relative;
+  left: 400px;
+  background: green;
+}
+
+#flashcards img{
+  width: 486px;
+  height: 607px;
+  
+}
+
+#snowy, #windy{
+  left: 20%;
 }

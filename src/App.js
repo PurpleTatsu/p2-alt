@@ -4,6 +4,10 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import UchiDeEnglish from './components/UchiDeEnglish'
+import Weather from './components/Weather'
+
+
+
 class App extends React.Component {
   constructor() {
     super();
@@ -17,7 +21,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <UchiDeEnglish />
+        {/* <UchiDeEnglish /> */}
+        <Weather />
         <Footer />
       </div>
     );
