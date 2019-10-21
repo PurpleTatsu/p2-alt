@@ -72,7 +72,7 @@ height: 100px;
   
 }
 
-#flashcards{
+#flashcards, #emotions-flashcards{
  display: flex;
  flex-wrap: wrap;
   width: calc(100% - 210px);
@@ -81,7 +81,7 @@ height: 100px;
   background: green;
 }
 
-#flashcards img{
+#flashcards img, #emotions-flashcards img{
   width: 486px;
   height: 607px;
   

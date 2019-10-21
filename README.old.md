@@ -7,6 +7,16 @@
 ## Description
 Drill based language learning, redesign of [Hoppy English, English at Home](https://hoppyenglish.com/https-hoppyenglish-com-%e3%81%8a%e3%81%86%e3%81%a1%e3%81%a7%e3%81%a1%e3%82%87%e3%81%93%e3%81%a3%e3%81%a8english%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9-frame-nonceb46a2e6b3b/)
 
+
+## MVP
+A navigatable site where clicking on a flashcard image results in a call to the API which reads the card.
+
+
+## Strech Goals
+Additional actitivies;
+Card flip animations, so picture is on one side, and text is on another;
+Language flip, so Japanese version is supported as well--i.e. Japanese for English-speaking children
+
 ## Wireframes
 ![Landing page](https://github.com/PurpleTatsu/Project2/blob/master/wireframes/wireframe2.png?raw=true)
 ![Drills](https://github.com/PurpleTatsu/Project2/blob/master/wireframes/wireframe1.png?raw=true)
